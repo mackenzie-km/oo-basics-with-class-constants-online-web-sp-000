@@ -8,7 +8,7 @@ GENRES = []
   end
   
   def genre=(genre) 
-    
+    GENRES << genre
 end    
 
   def turn_page
